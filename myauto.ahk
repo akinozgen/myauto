@@ -139,12 +139,13 @@ Return
 LWin & E::
 	MsgBox, Script will be opened
 						; Change this your path 
-    Run C:\Program Files\Notepad++\notepad++.exe "C:\Users\Akın Özgen\Documents\myauto\myauto.ahk"
-    Return
+	Run C:\Program Files\Notepad++\notepad++.exe "C:\Users\Akın Özgen\Documents\myauto\myauto.ahk"
+Return
 	
 ;; 5.
 LWin & R::
 	MsgBox, Will be compiled.
-    Run "C:\Users\Akın Özgen\Documents\myauto\build.cmd"
-    Return
+	    ; Change this your path 
+	Run "C:\Users\Akın Özgen\Documents\myauto\build.cmd"
+Return
 	
