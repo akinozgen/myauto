@@ -138,6 +138,7 @@ Return
 ;; 4.
 LWin & E::
 	MsgBox, Script will be opened
+						; Change this your path 
     Run C:\Program Files\Notepad++\notepad++.exe "C:\Users\Akın Özgen\Documents\myauto\myauto.ahk"
     Return
 	
